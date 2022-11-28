@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		258EBBDF2935280E00E92A79 /* CarNumberDetectorModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 258EBBDE2935280E00E92A79 /* CarNumberDetectorModel.mlmodel */; };
 		25C942642935052A00F65D98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C942632935052A00F65D98 /* AppDelegate.swift */; };
 		25C942662935052A00F65D98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C942652935052A00F65D98 /* SceneDelegate.swift */; };
-		25C942682935052A00F65D98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C942672935052A00F65D98 /* ViewController.swift */; };
-		25C9426B2935052A00F65D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C942692935052A00F65D98 /* Main.storyboard */; };
+		25C942682935052A00F65D98 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C942672935052A00F65D98 /* MainViewController.swift */; };
 		25C9426D2935052B00F65D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C9426C2935052B00F65D98 /* Assets.xcassets */; };
 		25C942702935052B00F65D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C9426E2935052B00F65D98 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		258EBBDE2935280E00E92A79 /* CarNumberDetectorModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CarNumberDetectorModel.mlmodel; sourceTree = "<group>"; };
 		25C942602935052A00F65D98 /* carNumberDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carNumberDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C942632935052A00F65D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25C942652935052A00F65D98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		25C942672935052A00F65D98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		25C9426A2935052A00F65D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25C942672935052A00F65D98 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		25C9426C2935052B00F65D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25C9426F2935052B00F65D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25C942712935052B00F65D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,10 +56,10 @@
 		25C942622935052A00F65D98 /* carNumberDetection */ = {
 			isa = PBXGroup;
 			children = (
+				258EBBDE2935280E00E92A79 /* CarNumberDetectorModel.mlmodel */,
 				25C942632935052A00F65D98 /* AppDelegate.swift */,
 				25C942652935052A00F65D98 /* SceneDelegate.swift */,
-				25C942672935052A00F65D98 /* ViewController.swift */,
-				25C942692935052A00F65D98 /* Main.storyboard */,
+				25C942672935052A00F65D98 /* MainViewController.swift */,
 				25C9426C2935052B00F65D98 /* Assets.xcassets */,
 				25C9426E2935052B00F65D98 /* LaunchScreen.storyboard */,
 				25C942712935052B00F65D98 /* Info.plist */,
@@ -127,7 +127,6 @@
 			files = (
 				25C942702935052B00F65D98 /* LaunchScreen.storyboard in Resources */,
 				25C9426D2935052B00F65D98 /* Assets.xcassets in Resources */,
-				25C9426B2935052A00F65D98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25C942682935052A00F65D98 /* ViewController.swift in Sources */,
+				258EBBDF2935280E00E92A79 /* CarNumberDetectorModel.mlmodel in Sources */,
+				25C942682935052A00F65D98 /* MainViewController.swift in Sources */,
 				25C942642935052A00F65D98 /* AppDelegate.swift in Sources */,
 				25C942662935052A00F65D98 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		25C942692935052A00F65D98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25C9426A2935052A00F65D98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		25C9426E2935052B00F65D98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +284,6 @@
 				INFOPLIST_FILE = carNumberDetection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +311,6 @@
 				INFOPLIST_FILE = carNumberDetection/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
